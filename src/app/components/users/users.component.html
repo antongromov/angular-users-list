@@ -1,0 +1,8 @@
+<ul class="users-list">
+  <li>
+    <a class="btn" routerLink="/user/new">+ ADD</a>
+  </li>
+  <li *ngFor="let user of users">
+    <a class="user-item" routerLink="/edit/{{ user.id }}">{{ user.name }}</a>
+  </li>
+</ul>

@@ -1,0 +1,24 @@
+/* UsersComponent's private CSS styles */
+.users-list {
+  list-style-type: none;
+}
+
+.users-list .btn {
+  padding: 5px;
+  background: #6a1c9a;
+  color: white;
+  font-size: 1.3em;
+}
+
+.users-list li {
+  margin-top: 10px;
+  color: #6a1c9a;
+}
+
+.users-list .user-item a {
+  text-decoration: underline;
+  color: #6a1c9a;
+}
+
+
+

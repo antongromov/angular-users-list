@@ -1,0 +1,7 @@
+<div *ngIf="user">
+  <div class="input-wrapper">
+    <input class="input" [(ngModel)]="user.name" placeholder="Name" type="text" >
+    <button class="btn btn-purple" (click)="save()">Save</button>
+    <span class="underline"></span>
+  </div>
+</div>
